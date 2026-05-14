@@ -19,4 +19,5 @@ return {
     "ojroques/vim-oscyank",
     "captbaritone/better-indent-support-for-php-with-html",
     "windwp/nvim-autopairs",
+    "akinsho/bufferline.nvim",
 }
