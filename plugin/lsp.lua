@@ -202,7 +202,10 @@ vim.lsp.config['clangd'] = {
     root_markers = { 'compile_commands.json', '.clangd', 'configure.ac', 'Makefile', '.git' },
     capabilities = caps,
     init_options = {
-        fallbackFlags = { '-std=c23' }, -- Default to C23
+        fallbackFlags = {
+            '--std=c17',  -- C standard for .c files
+            '--std=c++20', -- C++ standard for .cpp files
+        },
     },
 }
 
