@@ -1,6 +1,7 @@
 return {
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons",
+    "MunifTanjim/nui.nvim",
     { "nvim-treesitter/nvim-treesitter",             branch = "master" },
     { "nvim-treesitter/nvim-treesitter-textobjects", branch = "main" },
     "nvim-treesitter/nvim-treesitter-context",
@@ -20,4 +21,5 @@ return {
     "captbaritone/better-indent-support-for-php-with-html",
     "windwp/nvim-autopairs",
     "akinsho/bufferline.nvim",
+    "nvim-neo-tree/neo-tree.nvim",
 }
