@@ -53,3 +53,6 @@ set.incsearch = true
 
 -- faster cursor hold
 set.updatetime = 50
+
+-- cursor settings
+set.guicursor = "n-v-c:block,i-ci-ve:block,r-cr-o:hor20"
